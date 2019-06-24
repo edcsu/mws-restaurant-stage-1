@@ -227,6 +227,8 @@ nav h1 a {
 
 .inside #breadcrumb {
   width: 81.5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inside #maincontent {
@@ -364,6 +366,23 @@ nav h1 a {
     width: 38%;
   }
 
+  .inside header {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    z-index: 1000;
+    margin: 0;
+    font-size: 0.1rem;
+  }
+
+  .inside nav h1 a {
+    font-size: 11pt;
+  }
+  
+  .inside #breadcrumb {
+    width: 81%;
+    padding: 10px 21px 10px;
+  }
 }
 
 /* For tablets */
