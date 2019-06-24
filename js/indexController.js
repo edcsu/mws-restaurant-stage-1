@@ -1,9 +1,12 @@
 
+
+// declaring the IndexController function
 function IndexController(container) {
     this._container = container;
     this._registerServiceWorker();
   }
   
+// Register a service worker fucntion to work offline
   IndexController.prototype._registerServiceWorker = function() {
     if (!navigator.serviceWorker) return;
   
@@ -51,8 +54,8 @@ function IndexController(container) {
   };
   
   IndexController.prototype._updateReady = function(worker) {
-    console.log("New version available");
+    console.log("New version available" + worker);
   };
   
-
-new IndexController(document.querySelector('.main'));
+// creating an instance of the IndexController function
+new IndexController(document.querySelector('#maincontent'));

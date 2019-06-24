@@ -17,21 +17,21 @@
 </head>
 
 <body>
-  <header>
+  <header class="flex-container">
+    <!-- a link for users to skip to the page's main content -->
+    <a href="#maincontent" class="skip_to">Skip to Main Content</a>
     <nav>
-      <!-- a link for users to skip to the page's main content -->
-      <a href="#maincontent" class="skip_to">Skip to Main Content</a>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <section id="map-container"  title="Map container of the restaurants location">
       <div id="map"></div>
     </section>
-    <section>
+    <section title="Filter restaurants">
+        <h2> Filter Results </h2>
       <form class="filter-options">
-        Filter Results
         <label>
           All Neighborhoods
           <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
