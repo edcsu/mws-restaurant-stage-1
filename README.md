@@ -1,5 +1,9 @@
 # Front End Nanodegree Certification Course
----
+
+The starter code for this project can be found [here](https://github.com/udacity/mws-restaurant-stage-1)
+
+The code for my project can be found [here](https://github.com/edcsu/mws-restaurant-stage-1)
+
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
 ## Project Overview: Stage 1
