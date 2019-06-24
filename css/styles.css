@@ -232,7 +232,7 @@ nav h1 a {
 }
 
 .inside #maincontent {
-  margin-top: 5.1rem;
+  margin-top: 7rem;
 }
 
 .inside #map-container {
@@ -291,9 +291,7 @@ nav h1 a {
   padding: 30px 40px;
   width: 90%;
 }
-#reviews-container {
-  padding: 30px 40px 80px;
-}
+
 #reviews-container h2 {
   color: #f58500;
   font-size: 24pt;
@@ -333,6 +331,28 @@ nav h1 a {
     margin-left: auto;
     width: 70%;
   }
+
+  .inside {
+    width: 90%;
+  }
+
+  .inside header {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 1000;
+    margin: 0;
+  }
+
+  .inside nav h1 a {
+    font-size: 11pt;
+  }
+  
+  .inside #breadcrumb {
+    width: 86%;
+    padding: 11px 20px;
+  }
+  
 }
 
 /* For mobiles-M */
@@ -344,6 +364,26 @@ nav h1 a {
     width: 80%;
   }
 
+  .inside {
+    width: 90%;
+  }
+
+  .inside header {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 1000;
+    margin: 0;
+  }
+
+  .inside nav h1 a {
+    font-size: 11pt;
+  }
+  
+  .inside #breadcrumb {
+    width: 88%;
+    padding: 11px 20px;
+  }
 
 }
 
@@ -366,10 +406,14 @@ nav h1 a {
     width: 38%;
   }
 
+  .inside {
+    width: 80%;
+  }
+
   .inside header {
     position: fixed;
     top: 0;
-    width: 50%;
+    width: 80%;
     z-index: 1000;
     margin: 0;
   }
@@ -379,8 +423,8 @@ nav h1 a {
   }
   
   .inside #breadcrumb {
-    width: 81%;
-    padding: 10px 21px 10px;
+    width: 88%;
+    padding: 11px 21px;
   }
 }
 
@@ -403,12 +447,20 @@ nav h1 a {
     width: 25%;
   }
 
+  .inside {
+    width: 60%;
+  }
+
   .inside header {
     position: fixed;
     top: 0;
-    width: 45%;
+    width: 54%;
     z-index: 1000;
-    margin: 0 1.2rem;
+    margin: 0 1.4rem;
+  }
+
+  .inside #maincontent {
+    margin-top: 5.3rem;
   }
 
   .inside nav h1 a {
@@ -416,8 +468,8 @@ nav h1 a {
   }
   
   .inside #breadcrumb {
-    width: 88%;
-    padding: 10px 21px 10px;
+    width: 90%;
+    padding: 10px 21px 15px;
   }
 
 }
@@ -438,6 +490,28 @@ nav h1 a {
   #restaurants-list li {
     width: 26%;
   }
+
+  .inside header {
+    position: fixed;
+    top: 0;
+    width: 48%;
+    z-index: 1000;
+    margin: 0 3.8rem;
+  }
+
+  .inside nav h1 a {
+    font-size: 17pt;
+  }
+  
+  .inside #breadcrumb {
+    width: 90%;
+    padding: 11px 24px;
+  }
+
+  /* .inside #maincontent {
+    margin-top: 7rem;
+  }
+   */
 
 }
 
