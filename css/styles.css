@@ -372,7 +372,6 @@ nav h1 a {
     width: 50%;
     z-index: 1000;
     margin: 0;
-    font-size: 0.1rem;
   }
 
   .inside nav h1 a {
@@ -403,6 +402,24 @@ nav h1 a {
   #restaurants-list li {
     width: 25%;
   }
+
+  .inside header {
+    position: fixed;
+    top: 0;
+    width: 45%;
+    z-index: 1000;
+    margin: 0 1.2rem;
+  }
+
+  .inside nav h1 a {
+    font-size: 11pt;
+  }
+  
+  .inside #breadcrumb {
+    width: 88%;
+    padding: 10px 21px 10px;
+  }
+
 }
 
 /* For laptops */
