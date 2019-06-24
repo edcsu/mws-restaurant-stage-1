@@ -359,6 +359,23 @@ nav h1 a {
     padding: 20px;
     width: 90%;
   }
+
+  .filter-options {
+    height: 12rem;
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .filter-options select {
+    margin: 10px;
+    padding: 0 10px;
+    width: 214px;
+}
+
+  .filter-options h2 {
+    font-size: 2rem;
+  }
   
 }
 
@@ -392,6 +409,23 @@ nav h1 a {
     padding: 11px 20px;
   }
 
+  .filter-options {
+    height: 12rem;
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .filter-options select {
+    margin: 10px;
+    padding: 0 10px;
+    width: 250px;
+}
+
+  .filter-options h2 {
+    font-size: 2rem;
+  }
+
 }
 
 /* For mobiles */
@@ -403,6 +437,23 @@ nav h1 a {
     width: 90%;
   }
 
+  .filter-options {
+    height: 12rem;
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .filter-options select {
+    margin: 10px;
+    padding: 0 10px;
+    width: 274px;
+}
+
+  .filter-options h2 {
+    font-size: 2rem;
+  }
+
   #restaurants-list {
     margin-left: auto;
     margin-right: auto;
@@ -410,7 +461,7 @@ nav h1 a {
   }
 
   #restaurants-list li {
-    width: 38%;
+    width: 100%;
   }
 
   .inside {
@@ -444,6 +495,19 @@ nav h1 a {
     width: 90%;
   }
 
+  .filter-options {
+    height: 6rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .filter-options select {
+    margin: 10px;
+    padding: 0 10px;
+    width: 225px;
+}
+
   #restaurants-list {
     margin-left: auto;
     margin-right: auto;
@@ -451,7 +515,7 @@ nav h1 a {
   }
 
   #restaurants-list li {
-    width: 25%;
+    width: 40%;
   }
 
   .inside {
@@ -497,6 +561,12 @@ nav h1 a {
   #restaurants-list li {
     width: 26%;
   }
+
+  .filter-options select {
+    margin: 10px;
+    padding: 0 10px;
+    width: 290px;
+}
 
   .inside header {
     position: fixed;
