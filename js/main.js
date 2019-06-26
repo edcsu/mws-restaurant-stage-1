@@ -169,7 +169,8 @@ createRestaurantHTML = (restaurant) => {
   const cls = ["restaurant-img", "lazy"];
   image.classList.add(...cls);
   // make the image a lazy one 
-  image.setAttribute = ( "data-src", `DBHelper.imageUrlForRestaurant(${restaurant})`);
+  // image.setAttribute = ( "data-src", `DBHelper.imageUrlForRestaurant(${restaurant})`);
+  image.src = DBHelper.imageUrlForRestaurant(restaurant);
   // Add alternate text to the restaurant images
   image.alt = '${restaurant.name} located at ${restaurant.address}';
   li.append(image);
