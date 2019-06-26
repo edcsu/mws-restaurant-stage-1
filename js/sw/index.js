@@ -58,7 +58,8 @@ self.addEventListener('fetch', function(event) {
   }
 
   event.respondWith(
-    caches.match(event.request).then(function(response) {
+    // ignore the query string in the URL
+    caches.match(event.request, { ignoreSearch }).then(function(response) {
       return response || fetch(event.request);
     })
   );
