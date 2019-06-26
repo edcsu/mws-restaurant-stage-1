@@ -159,8 +159,15 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
 createRestaurantHTML = (restaurant) => {
   const li = document.createElement('li');
 
+  // Added LazyLoad that speeds up the web app by loading images as they enter the viewport.
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
+  });
   const image = document.createElement('img');
-  image.className = 'restaurant-img';
+  // add or remove multiple classes using spread syntax
+  const cls = ["restaurant-img", "lazy"];
+  image.classList.add(...cls); 
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   // Add alternate text to the restaurant images
   image.alt = '${restaurant.name} located at ${restaurant.address}';
